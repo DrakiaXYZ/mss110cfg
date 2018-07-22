@@ -1,6 +1,6 @@
 {
     "name": "@thedgtl/mss110-telnet-status",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Get the status of Meross MSS110 Wifi plugs running firmware 1.1.18 or lower via Telnet",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
