@@ -1,0 +1,28 @@
+{
+    "name": "@thedgtl/mss110-telnet-status",
+    "version": "0.0.1",
+    "description": "Get the status of Meross MSS110 Wifi plugs running firmware 1.1.18 or lower via Telnet",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepublish": "npm run build",
+        "build": "tsc",
+        "test": "mocha -r ts-node/register src/**/*.spec.ts"
+    },
+    "keywords": [],
+    "author": "Steven Scott",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/chai": "^4.1.4",
+        "@types/mocha": "^5.2.5",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "ts-node": "^7.0.0",
+        "typescript": "^2.9.2"
+    },
+    "dependencies": {
+        "@types/bluebird": "^3.5.22",
+        "standard-as-callback": "^1.0.1",
+        "telnet-client": "^0.15.8"
+    }
+}
